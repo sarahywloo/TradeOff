@@ -1,0 +1,15 @@
+﻿<form class="vertical-center" ng-submit="controller.register(user)">
+    <h1><a href="#/"><span class="glyphicon glyphicon-briefcase logo" aria-hidden="true">&nbsp;</span>Trade-Off</a></h1>
+    <br />
+    <input ng-model="user.userName" placeholder="User Name" class="form-control" />
+    <input ng-model="user.email" placeholder="Email" class="form-control" />
+    <input ng-model="user.country" placeholder="Country" class="form-control" />
+    <input ng-model="user.password" placeholder="Password" type="password" class="form-control" />
+    <input ng-model="user.confirmPassword" placeholder="Retype Password" type="password" class="form-control" />
+    <input type="submit" class="form-control btn btn-success" value="Register" />
+    <p>
+        Already have an account? <a href="#/login">Login here</a>
+    </p>
+</form>
+
+

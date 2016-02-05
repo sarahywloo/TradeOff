@@ -1,0 +1,314 @@
+﻿body {
+    overflow-x: hidden;
+    font-family: 'Raleway', sans-serif;
+}
+
+a:hover {
+    text-decoration: none;
+    color: cornsilk;
+}
+
+/* Header */
+.header {
+    padding: 10px 0;
+    background: #17baef;
+    color: #fff;
+    position: fixed;
+    width: 100%;
+}
+
+    .header.navbar-fixed-top {
+        background: #fff;
+        z-index: 9999;
+        -webkit-box-shadow: 0 0 4px rgba(0, 0, 0, 0.4);
+        -moz-box-shadow: 0 0 4px rgba(0, 0, 0, 0.4);
+        box-shadow: 0 0 4px rgba(0, 0, 0, 0.4);
+    }
+
+        .header.navbar-fixed-top .logo a {
+            color: #17baef;
+        }
+
+        .header.navbar-fixed-top .main-nav .nav .nav-item a {
+            color: Black;
+        }
+
+.navbar-default {
+    background-color: #222222;
+    border-color: transparent;
+}
+
+.header .logo {
+    margin: 0;
+    padding-left: 3%;
+    font-size: 26px;
+    padding-top: 10px;
+}
+
+    .header .logo a {
+        color: white;
+        font-family: 'Quantico', sans-serif;
+    }
+
+.header .main-nav .navbar-collapse {
+    padding: 0;
+}
+
+.header .main-nav  {
+    padding-right: 2%;
+}
+.header .main-nav .nav .nav-item {
+    font-weight: normal;
+    margin-right: 20px;
+    font-family: 'Raleway', sans-serif;
+}
+
+    .header .main-nav .nav .nav-item a:hover {
+        color: white;
+        background: none;
+        transition-delay: 0.3s;
+        text-shadow: 20px, 20px, 20px, #9e9d9d;
+    }
+
+    .header .main-nav .nav .nav-item a:focus {
+        outline: none;
+        background: none;
+    }
+
+    .header .main-nav .nav .nav-item a:active {
+        outline: none;
+        background: none;
+    }
+
+    .header .main-nav .nav .nav-item.last {
+        margin-right: 0;
+    }
+
+
+/* Promo Section */
+.promo {
+    margin-top: 50px;
+    height: 400px;
+    min-width: 200px;
+    filter: brightness(90%);
+    -webkit-filter: brightness(90%);
+    -moz-filter: brightness(90%);
+    -o-filter: brightness(90%);
+    -ms-filter: brightness(90%);
+    background: url(http://www.modstrom.com/img/modstrom/about/responsibility/header-bg.jpg);
+    color: #fff;
+    background-repeat: repeat;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    padding-top: 50px;
+    position: relative;
+}
+
+    .promo .text-center {
+        vertical-align: middle;
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .promo .title {
+        font-size: 50px;
+        color: #fff;
+        text-shadow: 2px 2px 2px #222222;
+        margin-top: 0;
+    }
+
+        .promo .title .highlight {
+            color: #fff;
+            font-size: 70px;
+            text-shadow: 2px 2px 2px #e6ad14;
+        }
+
+    .promo .intro {
+        font-size: 28px;
+        text-shadow: 1px 1px 1px #808080;
+        max-width: 680px;
+        margin: 0 auto;
+        margin-bottom: 30px;
+        padding-bottom: 50px;
+    }
+
+/*About*/
+.tp-about {
+    padding: 3%;
+    font-family: 'Raleway', sans-serif;
+    max-width: 500px;
+}
+
+    .tp-about > h5 {
+        font-size: 130%;
+    }
+
+.about {
+    padding: 80px 0;
+    background: #ffffff;
+}
+
+    .about .title {
+        color: #074f66;
+        margin-top: 0;
+    }
+
+    .about .intro {
+        max-width: 500px;
+        margin: 0 auto;
+        margin-bottom: 60px;
+    }
+
+    .about .item {
+        position: relative;
+        padding-right: 4%;
+    }
+
+        .about .item .icon-holder {
+            position: absolute;
+            top: 10px;
+            top: 0;
+        }
+
+            .about .item .icon-holder .fa {
+                font-size: 24px;
+                color: #074f66;
+            }
+
+        .about .item .content {
+            padding-left: 60px;
+        }
+
+            .about .item .content .sub-title {
+                margin-top: 0;
+                color: #074f66;
+                font-size: 18px;
+            }
+
+
+/*Social Media*/
+#contact {
+    padding: 80px 0;
+    color: darkslategray;
+    background: #f2f2f2;
+}
+
+.contact .contact-inner {
+    max-width: 760px;
+    margin: 0 auto;
+}
+
+.contact .title {
+    color: #074f66;
+    margin-top: 0;
+    margin-bottom: 25px;
+}
+
+.contact .intro {
+    margin-bottom: 45px;
+}
+
+.contact a {
+    color: #074f66;
+}
+
+    .contact a:hover {
+        color: #042a36;
+    }
+
+.contact .info .sub-title {
+    color: darkgray;
+    margin-bottom: 10px;
+    margin-top: 0;
+}
+
+.contact .social-icons {
+    list-style: none;
+    padding: 10px 0;
+    margin-bottom: 0;
+    display: inline-block;
+    margin: 0 auto;
+}
+
+    .contact .social-icons li {
+        float: left;
+    }
+
+        .contact .social-icons li.last {
+            margin-right: 0;
+        }
+
+    .contact .social-icons a {
+        display: inline-block;
+        background: rgb(137, 223, 210);
+        width: 53px;
+        height: 53px;
+        text-align: center;
+        padding-top: 12px;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
+        border-radius: 50%;
+        -moz-background-clip: padding;
+        -webkit-background-clip: padding-box;
+        background-clip: padding-box;
+        margin-right: 8px;
+        float: left;
+    }
+
+        .contact .social-icons a:hover {
+            background: #e6ad14;
+            transition-delay: 0.3s;
+        }
+
+        .contact .social-icons a .fa {
+            color: #fff;
+        }
+
+            .contact .social-icons a .fa:before {
+                font-size: 30px;
+                text-align: center;
+                padding: 0;
+            }
+
+/*Login, Register*/
+.vertical-center {
+    min-height: 100%;
+    min-height: 100vh;
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+    .vertical-center .form-control {
+        max-width: 300px;
+        margin: 5px 0;
+    }
+
+    .vertical-center > h1 {
+        font-family: 'Poiret One', cursive;
+        font-weight: 900;
+        font-size: 55px;
+        text-align: center;
+    }
+
+/*Footer*/
+footer {
+  padding: 25px 0;
+  text-align: center;
+}
+footer span.copyright {
+  line-height: 20px;
+  text-transform: none;
+}
+footer .pageLinks {
+  margin-bottom: 0;
+  line-height: 20px;
+  text-transform: none;
+}
